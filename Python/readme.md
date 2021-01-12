@@ -1,4 +1,4 @@
-# Python assignment and Projects:
+# Python assignments and Projects:
 
 1. In Unit 2, we learned about the basics of Python, such as list, dictionary, and build-in functions. We also learned about for loop, if-else statement, and so on. 
 
