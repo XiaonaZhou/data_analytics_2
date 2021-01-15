@@ -13,22 +13,26 @@
    
    a. In [assignment 1](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_3/Unit3_NumPy_Assignment_1.ipynb), I practiced using *numpy* package to find the maximum within an array, and subset array according to certain criteria. 
    
-   b. In [assignment 2](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_3/Unit3_Python_Advanced_Pandas_DataWrangling_Assignment.ipynb), I did data analysis using salaries dataset. I calculated mean, median, and I did basic data transformations on the dataset, such as rename and subset columns. I visualized the dataset by making scatter plots and histogram. Lastly, I draw conclusions based on the plots. 
+   b. In [assignment 2](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_3/Unit3_Python_Advanced_Pandas_DataWrangling_Assignment.ipynb), I did data analysis using salaries dataset. I calculated mean, median, and I did basic data transformations on the dataset, such as rename and subset columns. I visualized the dataset by making scatter plots and histograms. Lastly, I draw conclusions based on the plots. 
    
    c. The project for this unit is on the hot topic of the year, COVID 19. The codes for the first 4 tasks were set up clearly. After carefully reading all the codes and statements, I did some analysis on the states that have high death case. I answered the following questions:
    
       - Which five states have the highest number of death?
-      - Analysis on COVID 19 in the 5 states since December 22nd. 
-      - A different approach on calculating new cases. 
+      - Analysis of COVID 19 in the 5 states since December 22nd. 
+      - A different approach to calculating new cases. 
       - [Link to the project file](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_3/COVID19_DATA_ANALYSIS.ipynb)
-3. In **Unit 3**, we learned about Mechine Learning. More specificly, we learned various ML methods such as linear regression, logistic regression, K-Nearest Neighbors, decision trees, and random forest. 
-   a. We use linear regression to predict Boston housing price. I got $RMSE = 4.64$ and $R^2 =  0.69$. The outcome was not satisfying, and I was able to get better result with decision tree. [Linear regression Notebook]()
-   b. We worked on two examples on using logistic regression. We learned about confusion matrix, the difference between recall, precision, and accuracy, what is ROC-curve and how to interprete it.    
+3. In **Unit 3**, we learned about Machine Learning. More specifically, we learned various ML methods such as linear regression, logistic regression, K-Nearest Neighbors, decision trees, and random forest. 
+
+   a. We use linear regression to predict Boston housing prices. I got $RMSE = 4.64$ and $R^2 =  0.69$. The outcome was not satisfying, and I was able to get a better result with decision trees. [Linear regression Notebook](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Linear_Regression_Boston_Housing_Guided_Project.ipynb)
+   
+   b. We worked on two examples on using logistic regression. We learned about the confusion matrix, the difference between recall, precision, and accuracy, what is ROC-curve, and how to interpret it.    
+   
       - [Predict survival with Titanic dataset](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Logistic_Regression_Titanic_Class_Notes.ipynb)
       - [Predict ad clicking behavior with advertising dataset](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Logistic_regression_predict_ad_click.ipynb)
+      
    c. We use `Classified` dataset to examine KNN method. We learned about how to standardize data, how different K-values change predictions, and how to pick the right K-value.
       - [Predict class with classified dataset](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/KNN_with_Classified_dataset.ipynb)
-   d. Decision trees can be used on both classification and regression problems. 
       
-   
-
+   d. Decision trees can be used on both classification and regression problems. 
+      - [Re-predict ad clicking behavior with advertising dataset with decision trees](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Decision_Tree_Classification.ipynb): in this example, the decision trees model did not return a higher score than the logistic model.
+      - [Re-predict Boston housing price with decision trees](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Decision_Tree_Regression.ipynb): R-squared went from 0.69 to 0.78 when using decision trees. 
