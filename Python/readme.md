@@ -36,3 +36,4 @@
    d. Decision trees can be used on both classification and regression problems. 
       - [Re-predict ad clicking behavior with advertising dataset with decision trees](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Decision_Tree_Classification.ipynb): in this example, the decision trees model did not return a higher score than the logistic model.
       - [Re-predict Boston housing price with decision trees](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Decision_Tree_Regression.ipynb): R-squared went from 0.69 to 0.78 when using decision trees. 
+   e. Random forst 
