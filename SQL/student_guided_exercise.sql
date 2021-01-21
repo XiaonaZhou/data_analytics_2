@@ -33,6 +33,31 @@ select max(unit2), max(unit3), max(unit4), max(unit5)
 from student_mark;
 
 -- 8. how many people score 100 on each unit test?
-select count(unit2), 
+select count(unit2)
 from student_mark
-where unit2=100;
+where unit2=10;
+
+select count(unit3)
+from student_mark
+where unit3=10;
+
+select count(unit4)
+from student_mark
+where unit4=10;
+
+select count(unit5)
+from student_mark
+where unit5=10;
+
+-- 9. who has the highest total score 
+
+select student_id , unit2+unit3+unit4+unit5 as total
+from student_mark
+order by total desc
+limit 1;
+
+-- 10. How many emails ends with .com
+
+select count(email)
+from student_data 
+where email like '%.com';
