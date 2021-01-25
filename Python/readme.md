@@ -23,7 +23,7 @@
       - [Link to the project file](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_3/COVID19_DATA_ANALYSIS.ipynb)
 3. In **Unit 4**, we learned about Machine Learning. More specifically, we learned various ML methods such as *linear regression*, *logistic regression*, *K-Nearest Neighbors*, *decision trees*, and *random forest*. 
 
-   a. We use linear regression to predict Boston housing prices. I got $RMSE = 4.64$ and $R^2 =  0.69$. The outcome was not satisfying, and I was able to get a better result with decision trees. [Linear regression Notebook](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Linear_Regression_Boston_Housing_Guided_Project.ipynb)
+   a. We use linear regression to predict Boston housing prices. I got $RMSE=4.64$ and $R^2=0.69$. The outcome was not satisfying, and I was able to get a better result with decision trees. [Linear regression Notebook](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Linear_Regression_Boston_Housing_Guided_Project.ipynb)
    
    b. We worked on two examples on using logistic regression. We learned about the confusion matrix, the difference between recall, precision, and accuracy, what is ROC-curve, and how to interpret it.    
    
@@ -37,7 +37,7 @@
       - [Re-predict ad clicking behavior with advertising dataset with decision trees](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Decision_Tree_Classification.ipynb): in this example, the decision trees model did not return a higher score than the logistic model.
       - [Re-predict Boston housing price with decision trees](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Decision_Tree_Regression.ipynb): R-squared went from 0.69 to 0.78 when using decision trees. 
       
-   e. Random forest: I re-predicted ad clicking behavior by using a random forest classifier, and I worked out another example found at DataCamp.com on the famous iris dataset. I re-predict Boston Housing price by using a random forest regressor and got $R^2$ = 0.87 (significantly better than other methods). I worked on another example of predicting temperature. 
+   e. Random forest: I re-predicted ad clicking behavior by using a random forest classifier, and I worked out another example found at DataCamp.com on the famous iris dataset. I re-predicted Boston Housing price by using a random forest regressor and got $R^2$ = 0.87 (significantly better than other methods). I worked on another example of predicting temperature. 
    
    We worked **Amazon Alexa review project**. From this project, I learned about how to do one-hot encoding using `get_dummies`, and how to convert a column that contains sentences, e.g., reviews,  into numerical values using `CountVectorizer` and understand the idea behind the algorithm. I learned about feature importance and understand that fewer features can improve our model's performance since there is less noise. I also looked into the learning curve of my models to see if feeding more data to the model can improve performance. 
       - [Re-predict ad clicking behavior and example from DataCamp](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Random_forest_classification.ipynb)
