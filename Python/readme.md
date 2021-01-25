@@ -23,7 +23,7 @@
       - [Link to the project file](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_3/COVID19_DATA_ANALYSIS.ipynb)
 3. In **Unit 4**, we learned about Machine Learning. More specifically, we learned various ML methods such as *linear regression*, *logistic regression*, *K-Nearest Neighbors*, *decision trees*, and *random forest*. 
 
-   a. We use linear regression to predict Boston housing prices. I got $RMSE = 4.64$ and $R^2 =  0.69$. The outcome was not satisfying, and I was able to get a better result with decision trees. [Linear regression Notebook](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Linear_Regression_Boston_Housing_Guided_Project.ipynb)
+   a. We use linear regression to predict Boston housing prices. I got $RMSE=4.64$ and $R^2=0.69$. The outcome was not satisfying, and I was able to get a better result with decision trees. [Linear regression Notebook](https://github.com/XiaonaZhou/data_analytics_2/blob/main/Python/Unit_4/Linear_Regression_Boston_Housing_Guided_Project.ipynb)
    
    b. We worked on two examples on using logistic regression. We learned about the confusion matrix, the difference between recall, precision, and accuracy, what is ROC-curve, and how to interpret it.    
    
