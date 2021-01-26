@@ -18,6 +18,8 @@ values(2, 'John', '12345 street', 'Brooklyn', 11221,  'USA', '1234778@gmail.com'
 insert into customer_l9
 values(3, 'Jake', '145 street', 'Brooklyn', 11231,  'USA', '123sddff8@gmail.com');
 
+
+select * from customer_l9;
 -- Use an UPDATE to modify any portion of the data
 update customer_l9
 set CustomerName = 'Lucky'

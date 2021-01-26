@@ -20,6 +20,8 @@ values(3, 'PostgreSQL (Postgres) - Installation & Overview |¦| SQL Tutorial |¦
 	   8, 'https://www.youtube.com/watch?v=fZQI7nBu32M');
 
 
+select * from video;
+
 drop table if exists populate_Reviewers;
 create table populate_reviewers(
 	user_id integer primary key,
@@ -43,6 +45,7 @@ values(3,1,'User3', 5, 'SQL 101 class');
 insert into populate_reviewers
 values(4,1,'User4', 5, 'best SQL class');
 
+select * from populate_reviewers;
 
 select * from 
 video v
