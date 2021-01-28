@@ -1,0 +1,1458 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0114.0916                               -->
+<workbook source-build='2020.4.1 (20204.21.0114.0916)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='nyc-jobs' inline='true' name='federated.0j4sjnz0ie1bnn0zooar71m4xovg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='nyc-jobs' name='textscan.1wjmkvo0ulgm0c1gccy180ngpyk5'>
+            <connection class='textscan' directory='C:/Users/xiaon/Documents/GitHub/data_analytics_2/Tableau' filename='nyc-jobs.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1wjmkvo0ulgm0c1gccy180ngpyk5' name='nyc-jobs.csv' table='[nyc-jobs#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Job ID' ordinal='0' />
+            <column datatype='string' name='Agency' ordinal='1' />
+            <column datatype='string' name='Posting Type' ordinal='2' />
+            <column datatype='integer' name='# Of Positions' ordinal='3' />
+            <column datatype='string' name='Business Title' ordinal='4' />
+            <column datatype='string' name='Civil Service Title' ordinal='5' />
+            <column datatype='string' name='Title Code No' ordinal='6' />
+            <column datatype='string' name='Level' ordinal='7' />
+            <column datatype='string' name='Job Category' ordinal='8' />
+            <column datatype='string' name='Full-Time/Part-Time indicator' ordinal='9' />
+            <column datatype='real' name='Salary Range From' ordinal='10' />
+            <column datatype='real' name='Salary Range To' ordinal='11' />
+            <column datatype='string' name='Salary Frequency' ordinal='12' />
+            <column datatype='string' name='Work Location' ordinal='13' />
+            <column datatype='string' name='Division/Work Unit' ordinal='14' />
+            <column datatype='string' name='Job Description' ordinal='15' />
+            <column datatype='string' name='Minimum Qual Requirements' ordinal='16' />
+            <column datatype='string' name='Preferred Skills' ordinal='17' />
+            <column datatype='string' name='Additional Information' ordinal='18' />
+            <column datatype='string' name='To Apply' ordinal='19' />
+            <column datatype='string' name='Hours/Shift' ordinal='20' />
+            <column datatype='string' name='Work Location 1' ordinal='21' />
+            <column datatype='string' name='Recruitment Contact' ordinal='22' />
+            <column datatype='string' name='Residency Requirement' ordinal='23' />
+            <column datatype='datetime' name='Posting Date' ordinal='24' />
+            <column datatype='datetime' name='Post Until' ordinal='25' />
+            <column datatype='datetime' name='Posting Updated' ordinal='26' />
+            <column datatype='datetime' name='Process Date' ordinal='27' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1wjmkvo0ulgm0c1gccy180ngpyk5' name='nyc-jobs.csv' table='[nyc-jobs#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Job ID' ordinal='0' />
+            <column datatype='string' name='Agency' ordinal='1' />
+            <column datatype='string' name='Posting Type' ordinal='2' />
+            <column datatype='integer' name='# Of Positions' ordinal='3' />
+            <column datatype='string' name='Business Title' ordinal='4' />
+            <column datatype='string' name='Civil Service Title' ordinal='5' />
+            <column datatype='string' name='Title Code No' ordinal='6' />
+            <column datatype='string' name='Level' ordinal='7' />
+            <column datatype='string' name='Job Category' ordinal='8' />
+            <column datatype='string' name='Full-Time/Part-Time indicator' ordinal='9' />
+            <column datatype='real' name='Salary Range From' ordinal='10' />
+            <column datatype='real' name='Salary Range To' ordinal='11' />
+            <column datatype='string' name='Salary Frequency' ordinal='12' />
+            <column datatype='string' name='Work Location' ordinal='13' />
+            <column datatype='string' name='Division/Work Unit' ordinal='14' />
+            <column datatype='string' name='Job Description' ordinal='15' />
+            <column datatype='string' name='Minimum Qual Requirements' ordinal='16' />
+            <column datatype='string' name='Preferred Skills' ordinal='17' />
+            <column datatype='string' name='Additional Information' ordinal='18' />
+            <column datatype='string' name='To Apply' ordinal='19' />
+            <column datatype='string' name='Hours/Shift' ordinal='20' />
+            <column datatype='string' name='Work Location 1' ordinal='21' />
+            <column datatype='string' name='Recruitment Contact' ordinal='22' />
+            <column datatype='string' name='Residency Requirement' ordinal='23' />
+            <column datatype='datetime' name='Posting Date' ordinal='24' />
+            <column datatype='datetime' name='Post Until' ordinal='25' />
+            <column datatype='datetime' name='Posting Updated' ordinal='26' />
+            <column datatype='datetime' name='Process Date' ordinal='27' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Job ID]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Job ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Agency]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Agency</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Posting Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Posting Type]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Posting Type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Of Positions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Of Positions]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias># Of Positions</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Business Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Business Title]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Business Title</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Civil Service Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Civil Service Title]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Civil Service Title</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title Code No</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Title Code No]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Title Code No</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Level]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Level</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job Category]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Job Category</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Full-Time/Part-Time indicator</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Full-Time/Part-Time indicator]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Full-Time/Part-Time indicator</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Salary Range From</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Salary Range From]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Salary Range From</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Salary Range To</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Salary Range To]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Salary Range To</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Salary Frequency</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Salary Frequency]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Salary Frequency</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Work Location]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Work Location</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Division/Work Unit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Division/Work Unit]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Division/Work Unit</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job Description]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Job Description</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minimum Qual Requirements</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Minimum Qual Requirements]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Minimum Qual Requirements</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Preferred Skills</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Preferred Skills]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Preferred Skills</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Additional Information</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Additional Information]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Additional Information</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>To Apply</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[To Apply]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>To Apply</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hours/Shift</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Hours/Shift]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Hours/Shift</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work Location 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Work Location 1]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Work Location 1</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recruitment Contact</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Recruitment Contact]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Recruitment Contact</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Residency Requirement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Residency Requirement]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Residency Requirement</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Posting Date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Posting Date]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Posting Date</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Post Until</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Post Until]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Post Until</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Posting Updated</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Posting Updated]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Posting Updated</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Process Date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Process Date]</local-name>
+            <parent-name>[nyc-jobs.csv]</parent-name>
+            <remote-alias>Process Date</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[# Of Positions]' role='measure' type='quantitative' />
+      <column caption='Middle Salary' datatype='real' name='[Calculation_304837404890685440]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Salary Range From]+[Salary Range To])/2' />
+      </column>
+      <column datatype='integer' name='[Job ID]' role='dimension' type='ordinal' />
+      <column datatype='real' name='[Salary Range From]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Salary Range To]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='nyc-jobs.csv' datatype='table' name='[__tableau_internal_object_id__].[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[nyc-jobs.csv_F154147040D74CB4B1850DCF39924313]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:nyc-jobs.csv_F154147040D74CB4B1850DCF39924313:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_304837404890685440]' derivation='Avg' name='[avg:Calculation_304837404890685440:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Salary Range From]' derivation='Avg' name='[avg:Salary Range From:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Salary Range To]' derivation='Avg' name='[avg:Salary Range To:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[# Of Positions]' derivation='Sum' name='[sum:# Of Positions:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_304837404890685440]' derivation='Sum' name='[sum:Calculation_304837404890685440:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Salary Range From]' derivation='Sum' name='[sum:Salary Range From:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Salary Range To]' derivation='Sum' name='[sum:Salary Range To:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range From:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:\# Of Positions:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:Salary Range From:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:Calculation_304837404890685440:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[__tableau_internal_object_id__].[cnt:nyc-jobs.csv_F154147040D74CB4B1850DCF39924313:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Calculation_304837404890685440:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range To:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:Salary Range To:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='nyc-jobs.csv' id='nyc-jobs.csv_F154147040D74CB4B1850DCF39924313'>
+            <properties context=''>
+              <relation connection='textscan.1wjmkvo0ulgm0c1gccy180ngpyk5' name='nyc-jobs.csv' table='[nyc-jobs#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Job ID' ordinal='0' />
+                  <column datatype='string' name='Agency' ordinal='1' />
+                  <column datatype='string' name='Posting Type' ordinal='2' />
+                  <column datatype='integer' name='# Of Positions' ordinal='3' />
+                  <column datatype='string' name='Business Title' ordinal='4' />
+                  <column datatype='string' name='Civil Service Title' ordinal='5' />
+                  <column datatype='string' name='Title Code No' ordinal='6' />
+                  <column datatype='string' name='Level' ordinal='7' />
+                  <column datatype='string' name='Job Category' ordinal='8' />
+                  <column datatype='string' name='Full-Time/Part-Time indicator' ordinal='9' />
+                  <column datatype='real' name='Salary Range From' ordinal='10' />
+                  <column datatype='real' name='Salary Range To' ordinal='11' />
+                  <column datatype='string' name='Salary Frequency' ordinal='12' />
+                  <column datatype='string' name='Work Location' ordinal='13' />
+                  <column datatype='string' name='Division/Work Unit' ordinal='14' />
+                  <column datatype='string' name='Job Description' ordinal='15' />
+                  <column datatype='string' name='Minimum Qual Requirements' ordinal='16' />
+                  <column datatype='string' name='Preferred Skills' ordinal='17' />
+                  <column datatype='string' name='Additional Information' ordinal='18' />
+                  <column datatype='string' name='To Apply' ordinal='19' />
+                  <column datatype='string' name='Hours/Shift' ordinal='20' />
+                  <column datatype='string' name='Work Location 1' ordinal='21' />
+                  <column datatype='string' name='Recruitment Contact' ordinal='22' />
+                  <column datatype='string' name='Residency Requirement' ordinal='23' />
+                  <column datatype='datetime' name='Posting Date' ordinal='24' />
+                  <column datatype='datetime' name='Post Until' ordinal='25' />
+                  <column datatype='datetime' name='Posting Updated' ordinal='26' />
+                  <column datatype='datetime' name='Process Date' ordinal='27' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Building Operations &amp; Maintenance'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nyc-jobs' name='federated.0j4sjnz0ie1bnn0zooar71m4xovg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j4sjnz0ie1bnn0zooar71m4xovg'>
+            <column datatype='integer' name='[# Of Positions]' role='measure' type='quantitative' />
+            <column caption='Middle Salary' datatype='real' name='[Calculation_304837404890685440]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Salary Range From]+[Salary Range To])/2' />
+            </column>
+            <column datatype='string' name='[Job Category]' role='dimension' type='nominal' />
+            <column datatype='datetime' name='[Posting Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Salary Range From]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Salary Range To]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_304837404890685440]' derivation='Avg' name='[avg:Calculation_304837404890685440:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job Category]' derivation='None' name='[none:Job Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[# Of Positions]' derivation='Sum' name='[sum:# Of Positions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Posting Date]' derivation='Month-Trunc' name='[tmn:Posting Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]'>
+            <groupfilter count='1' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([# Of Positions])' function='order' user:ui-marker='order'>
+                <groupfilter function='member' level='[none:Job Category:nk]' member='&quot;Building Operations &amp; Maintenance&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Calculation_304837404890685440:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk] * ([federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Calculation_304837404890685440:qk] + [federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]))</rows>
+        <cols>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[tmn:Posting Date:qk]</cols>
+      </table>
+      <simple-id uuid='{0567A84F-BD0F-44C0-BF27-BD910741C0E8}' />
+    </worksheet>
+    <worksheet name='Check other Jobs'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nyc-jobs' name='federated.0j4sjnz0ie1bnn0zooar71m4xovg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j4sjnz0ie1bnn0zooar71m4xovg'>
+            <column datatype='integer' name='[# Of Positions]' role='measure' type='quantitative' />
+            <column caption='Middle Salary' datatype='real' name='[Calculation_304837404890685440]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Salary Range From]+[Salary Range To])/2' />
+            </column>
+            <column datatype='string' name='[Job Category]' role='dimension' type='nominal' />
+            <column datatype='datetime' name='[Posting Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Salary Range From]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Salary Range To]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_304837404890685440]' derivation='Avg' name='[avg:Calculation_304837404890685440:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job Category]' derivation='None' name='[none:Job Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[# Of Positions]' derivation='Sum' name='[sum:# Of Positions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Posting Date]' derivation='Month-Trunc' name='[tmn:Posting Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]'>
+            <groupfilter function='member' level='[none:Job Category:nk]' member='&quot;Administration &amp; Human Resources&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Calculation_304837404890685440:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk] * ([federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Calculation_304837404890685440:qk] + [federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]))</rows>
+        <cols>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[tmn:Posting Date:qk]</cols>
+      </table>
+      <simple-id uuid='{BB242649-0BF3-4E12-9473-1A3A4F6A42ED}' />
+    </worksheet>
+    <worksheet name='Public Safety, Inspections, &amp; Enforcement'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nyc-jobs' name='federated.0j4sjnz0ie1bnn0zooar71m4xovg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j4sjnz0ie1bnn0zooar71m4xovg'>
+            <column datatype='integer' name='[# Of Positions]' role='measure' type='quantitative' />
+            <column caption='Middle Salary' datatype='real' name='[Calculation_304837404890685440]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Salary Range From]+[Salary Range To])/2' />
+            </column>
+            <column datatype='string' name='[Job Category]' role='dimension' type='nominal' />
+            <column datatype='datetime' name='[Posting Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Salary Range From]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Salary Range To]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_304837404890685440]' derivation='Avg' name='[avg:Calculation_304837404890685440:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job Category]' derivation='None' name='[none:Job Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[# Of Positions]' derivation='Sum' name='[sum:# Of Positions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Posting Date]' derivation='Month-Trunc' name='[tmn:Posting Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]'>
+            <groupfilter count='1' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([# Of Positions])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Job Category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Calculation_304837404890685440:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk] * ([federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Calculation_304837404890685440:qk] + [federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]))</rows>
+        <cols>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[tmn:Posting Date:qk]</cols>
+      </table>
+      <simple-id uuid='{911C6BA6-E5DE-42C7-A3D5-2CE167B3B8F7}' />
+    </worksheet>
+    <worksheet name='Salary range Building Operations &amp; Maintenance'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nyc-jobs' name='federated.0j4sjnz0ie1bnn0zooar71m4xovg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j4sjnz0ie1bnn0zooar71m4xovg'>
+            <column datatype='integer' name='[# Of Positions]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Job Category]' role='dimension' type='nominal' />
+            <column datatype='datetime' name='[Posting Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Salary Range From]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Salary Range To]' role='measure' type='quantitative' />
+            <column-instance column='[Salary Range From]' derivation='Avg' name='[avg:Salary Range From:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Salary Range To]' derivation='Avg' name='[avg:Salary Range To:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job Category]' derivation='None' name='[none:Job Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Posting Date]' derivation='Month-Trunc' name='[tmn:Posting Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]'>
+            <groupfilter count='1' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([# Of Positions])' function='order' user:ui-marker='order'>
+                <groupfilter function='member' level='[none:Job Category:nk]' member='&quot;Building Operations &amp; Maintenance&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range To:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range From:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range To:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk] * ([federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range From:qk] + [federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range To:qk]))</rows>
+        <cols>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[tmn:Posting Date:qk]</cols>
+      </table>
+      <simple-id uuid='{6BBE3A7B-320A-4FF9-88DE-8972D6020924}' />
+    </worksheet>
+    <worksheet name='Salary range Public Safety, Inspections, &amp; Enforcement'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nyc-jobs' name='federated.0j4sjnz0ie1bnn0zooar71m4xovg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j4sjnz0ie1bnn0zooar71m4xovg'>
+            <column datatype='integer' name='[# Of Positions]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Job Category]' role='dimension' type='nominal' />
+            <column datatype='datetime' name='[Posting Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Salary Range From]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Salary Range To]' role='measure' type='quantitative' />
+            <column-instance column='[Salary Range From]' derivation='Avg' name='[avg:Salary Range From:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Salary Range To]' derivation='Avg' name='[avg:Salary Range To:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job Category]' derivation='None' name='[none:Job Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Posting Date]' derivation='Month-Trunc' name='[tmn:Posting Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]'>
+            <groupfilter count='1' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([# Of Positions])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Job Category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range To:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range From:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range To:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk] * ([federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range From:qk] + [federated.0j4sjnz0ie1bnn0zooar71m4xovg].[avg:Salary Range To:qk]))</rows>
+        <cols>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[tmn:Posting Date:qk]</cols>
+      </table>
+      <simple-id uuid='{E0427416-97C4-4B37-A7ED-9E4CEA6D33DA}' />
+    </worksheet>
+    <worksheet name='What jobs are in high demand?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nyc-jobs' name='federated.0j4sjnz0ie1bnn0zooar71m4xovg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j4sjnz0ie1bnn0zooar71m4xovg'>
+            <column datatype='integer' name='[# Of Positions]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Job Category]' role='dimension' type='nominal' />
+            <column datatype='datetime' name='[Posting Date]' role='dimension' type='ordinal' />
+            <column-instance column='[Job Category]' derivation='None' name='[none:Job Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Posting Date]' derivation='None' name='[none:Posting Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[# Of Positions]' derivation='Sum' name='[sum:# Of Positions:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([# Of Positions])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Job Category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Posting Date:qk]' included-values='in-range'>
+            <min>#2018-05-03 00:00:00#</min>
+            <max>#2019-12-17 00:00:00#</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]</column>
+            <column>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Posting Date:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Posting Date:qk]' palette='orange_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Posting Date:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]</rows>
+        <cols>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]</cols>
+      </table>
+      <simple-id uuid='{57B1F416-AC80-452D-89F9-3CEF2A4293F8}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Building Operations &amp; Maintenance # of positions and salary'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='98400' x='800' y='1000'>
+              <zone h='49000' id='3' name='Building Operations &amp; Maintenance' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='9' name='Salary range Building Operations &amp; Maintenance' show-title='false' w='98400' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='13' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='12' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Building Operations &amp; Maintenance' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Salary range Building Operations &amp; Maintenance' show-title='false' w='98400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{6FA88770-9DDD-40B4-B237-7CCCF3DE5F33}' />
+    </dashboard>
+    <dashboard name='Most popular jobs and salary ranges' type='storyboard'>
+      <style>
+        <style-rule element='story-description'>
+          <format attr='font-style' id='story-description_7' value='normal' />
+          <format attr='font-weight' id='story-description_7' value='normal' />
+          <format attr='text-decoration' id='story-description_7' value='none' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' preset-index='1' sizing-mode='fixed' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='2' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='1' param='vert' removable='false' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='6250' id='3' w='98400' x='800' y='1000' />
+            <zone _.fcp.SetMembershipControl.false...type='flipboard-nav' _.fcp.SetMembershipControl.true...type-v2='flipboard-nav' h='12625' id='4' is-fixed='true' paired-zone-id='5' removable='false' w='98400' x='800' y='7250' />
+            <zone _.fcp.SetMembershipControl.false...type='flipboard' _.fcp.SetMembershipControl.true...type-v2='flipboard' h='79125' id='5' paired-zone-id='4' removable='false' w='98400' x='800' y='19875'>
+              <flipboard active-id='6' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='What jobs are in high demand? demand?' captured-sheet='What jobs are in high demand?' id='1'>
+                    <capturedDeltas>
+                      <worksheet name='What jobs are in high demand?'>
+                        <filter class='quantitative' column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Posting Date:qk]' included-values='all' />
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='Public Safety, Inspections, &amp; Enforcement has the higher # of postion since 2019' captured-sheet='What jobs are in high demand?' id='2'>
+                    <capturedDeltas>
+                      <worksheet name='What jobs are in high demand?'>
+                        <filter class='quantitative' column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Posting Date:qk]' included-values='in-range-or-null'>
+                          <min>#2019-01-01 00:00:00#</min>
+                          <max>#2019-12-17 00:00:00#</max>
+                        </filter>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption=' Number of postition and salary over time ' captured-sheet='Public Safety, Inspections, &amp; Enforcement # of positions and salary' id='4' />
+                  <story-point caption=' Number of postition and salary over time ' captured-sheet='Building Operations &amp; Maintenance # of positions and salary' id='5' />
+                  <story-point caption='Explore details about other jobs using the dropdown menu. ' captured-sheet='Check other Jobs' id='6'>
+                    <currentDeltas>
+                      <worksheet name='Check other Jobs'>
+                        <filter class='categorical' column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]'>
+                          <groupfilter count='1' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+                            <groupfilter direction='DESC' expression='SUM([# Of Positions])' function='order' user:ui-marker='order'>
+                              <groupfilter function='member' level='[none:Job Category:nk]' member='&quot;Technology, Data &amp; Innovation&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+                            </groupfilter>
+                          </groupfilter>
+                        </filter>
+                      </worksheet>
+                    </currentDeltas>
+                    <capturedDeltas>
+                      <worksheet name='Check other Jobs'>
+                        <filter class='categorical' column='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]'>
+                          <groupfilter count='1' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+                            <groupfilter direction='DESC' expression='SUM([# Of Positions])' function='order' user:ui-marker='order'>
+                              <groupfilter function='member' level='[none:Job Category:nk]' member='&quot;Engineering, Architecture, &amp; Planning&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+                            </groupfilter>
+                          </groupfilter>
+                        </filter>
+                        <selection-collection>
+                          <node-selection select-tuples='false'>
+                            <oriented-node-reference orientation='vertical'>
+                              <node-reference>
+                                <fields>
+                                  <field>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]</field>
+                                </fields>
+                                <multibucket>
+                                  <bucket>&quot;Engineering, Architecture, &amp; Planning&quot;</bucket>
+                                </multibucket>
+                                <axis>[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[sum:# Of Positions:qk]</axis>
+                              </node-reference>
+                              <page-reference />
+                            </oriented-node-reference>
+                          </node-selection>
+                        </selection-collection>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='20954' hidden='true' id='6' story-point-id='1' w='37402' x='40354' y='33299'>
+          <formatted-text>
+            <run>The most in demand job is Public Safety, Inspections, &amp; Enforcement. </run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{67858F1A-E3C8-4EA7-B6AD-489A14D7C217}' />
+    </dashboard>
+    <dashboard name='Public Safety, Inspections, &amp; Enforcement # of positions and salary'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='98400' x='800' y='1000'>
+              <zone h='49000' id='3' name='Public Safety, Inspections, &amp; Enforcement' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='9' name='Salary range Public Safety, Inspections, &amp; Enforcement' show-title='false' w='98400' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='13' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='12' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Public Safety, Inspections, &amp; Enforcement' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Salary range Public Safety, Inspections, &amp; Enforcement' show-title='false' w='98400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D0DDFC88-2458-47C4-AF7D-652E4963E986}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='What jobs are in high demand?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='218'>
+            <card param='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Posting Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='1' param='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Posting Date:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E55C63F5-B1C2-4A3E-A6C4-7D3D1B6610CF}' />
+    </window>
+    <window class='worksheet' name='Public Safety, Inspections, &amp; Enforcement'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{69416003-BB8A-412F-B489-65DC8936A9D5}' />
+    </window>
+    <window class='worksheet' name='Building Operations &amp; Maintenance'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{204DEFA7-1212-4CD6-85B3-7A05D0B0FADB}' />
+    </window>
+    <window class='worksheet' name='Salary range Public Safety, Inspections, &amp; Enforcement'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{66CE4C28-FA46-4BFD-8AD5-B5A4ABA23FCF}' />
+    </window>
+    <window class='worksheet' name='Salary range Building Operations &amp; Maintenance'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D032BE25-CE14-4E94-B89C-C4CD9BDF89CA}' />
+    </window>
+    <window class='worksheet' name='Check other Jobs'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[none:Job Category:nk]' type='filter' values='relevant' />
+            <card pane-specification-id='1' param='[federated.0j4sjnz0ie1bnn0zooar71m4xovg].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FAC0AABC-D0F6-4F04-ABBC-A514B4F75905}' />
+    </window>
+    <window class='dashboard' name='Public Safety, Inspections, &amp; Enforcement # of positions and salary'>
+      <viewpoints>
+        <viewpoint name='Public Safety, Inspections, &amp; Enforcement'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Salary range Public Safety, Inspections, &amp; Enforcement'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{67820C4E-F57A-4E82-8444-C79E1ADCB3FC}' />
+    </window>
+    <window class='dashboard' name='Building Operations &amp; Maintenance # of positions and salary'>
+      <viewpoints>
+        <viewpoint name='Building Operations &amp; Maintenance'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Salary range Building Operations &amp; Maintenance'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{546FC731-D3BA-4EC1-BD73-D696412861D9}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Most popular jobs and salary ranges'>
+      <viewpoints />
+      <active id='6' />
+      <simple-id uuid='{FB1A9A10-8194-4929-89ED-22990AE0C304}' />
+    </window>
+  </windows>
+</workbook>
