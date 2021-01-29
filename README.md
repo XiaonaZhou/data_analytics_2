@@ -4,3 +4,4 @@ This repository contains my course work from the Mirco-Credential Data analytics
 
 1. [Python assignments and projects](https://github.com/XiaonaZhou/data_analytics_2/tree/main/Python) 
 2. [SQL practices and assignments](https://github.com/XiaonaZhou/data_analytics_2/tree/main/SQL)
+3. [Tableau practices and assignments](https://github.com/XiaonaZhou/data_analytics_2/tree/main/Tableau)
