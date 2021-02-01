@@ -1,0 +1,358 @@
+,State,Month,Unemployment rate,New cases,New Deaths
+0,Alabama,March,3.5,999.0,14.0
+1,Alabama,April,12.9,6069.0,258.0
+2,Alabama,May,9.6,10884.0,358.0
+3,Alabama,June,7.5,20093.0,320.0
+4,Alabama,July,7.9,49678.0,630.0
+5,Alabama,Aug,5.6,38335.0,602.0
+6,Alabama,Sept,6.6,28643.0,358.0
+0,Alaska,March,5.6,133.0,2.0
+1,Alaska,April,12.9,220.0,5.0
+2,Alaska,May,12.7,116.0,1.0
+3,Alaska,June,12.4,663.0,4.0
+4,Alaska,July,11.6,2543.0,9.0
+5,Alaska,Aug,7.4,2400.0,13.0
+6,Alaska,Sept,7.2,2632.0,18.0
+0,Arizona,March,5.5,1297.0,24.0
+1,Arizona,April,12.6,6350.0,296.0
+2,Arizona,May,9.0,12288.0,586.0
+3,Arizona,June,10.0,59463.0,739.0
+4,Arizona,July,10.6,94709.0,2050.0
+5,Arizona,Aug,5.9,27758.0,1336.0
+6,Arizona,Sept,6.7,16645.0,623.0
+0,Arkansas,March,4.8,564.0,8.0
+1,Arkansas,April,10.2,2717.0,53.0
+2,Arkansas,May,9.6,3972.0,72.0
+3,Arkansas,June,8.0,13524.0,137.0
+4,Arkansas,July,7.1,21734.0,183.0
+5,Arkansas,Aug,7.4,18713.0,344.0
+6,Arkansas,Sept,7.3,22473.0,572.0
+0,California,March,5.3,8555.0,184.0
+1,California,April,15.5,41887.0,1873.0
+2,California,May,16.4,62644.0,2185.0
+3,California,June,14.9,119039.0,1841.0
+4,California,July,13.3,270120.0,3139.0
+5,California,Aug,11.4,210268.0,3798.0
+6,California,Sept,11.0,108584.0,2878.0
+0,Colorado,March,4.5,2990.0,69.0
+1,Colorado,April,11.3,12217.0,706.0
+2,Colorado,May,10.2,11157.0,670.0
+3,Colorado,June,10.5,6334.0,245.0
+4,Colorado,July,7.4,14250.0,151.0
+5,Colorado,Aug,6.7,10849.0,111.0
+6,Colorado,Sept,6.4,13293.0,109.0
+0,Connecticut,March,3.7,3128.0,69.0
+1,Connecticut,April,7.9,24572.0,2188.0
+2,Connecticut,May,9.6,14501.0,1687.0
+3,Connecticut,June,9.8,4313.0,378.0
+4,Connecticut,July,10.2,3296.0,110.0
+5,Connecticut,Aug,8.1,3069.0,33.0
+6,Connecticut,Sept,7.8,4671.0,43.0
+0,Delaware,March,5.1,319.0,10.0
+1,Delaware,April,14.3,4415.0,142.0
+2,Delaware,May,15.9,4764.0,214.0
+3,Delaware,June,12.5,1976.0,143.0
+4,Delaware,July,10.4,3314.0,76.0
+5,Delaware,Aug,8.9,2641.0,20.0
+6,Delaware,Sept,8.2,3184.0,31.0
+0,Florida,March,4.3,6742.0,85.0
+1,Florida,April,12.9,26941.0,1182.0
+2,Florida,May,13.7,22472.0,1183.0
+3,Florida,June,10.4,96271.0,1054.0
+4,Florida,July,11.3,317952.0,3338.0
+5,Florida,Aug,7.4,153085.0,4344.0
+6,Florida,Sept,7.6,83045.0,3130.0
+0,Georgia,March,4.2,4116.0,126.0
+1,Georgia,April,11.9,21315.0,995.0
+2,Georgia,May,9.4,19620.0,898.0
+3,Georgia,June,7.6,32229.0,739.0
+4,Georgia,July,7.6,94062.0,916.0
+5,Georgia,Aug,5.6,82896.0,1832.0
+6,Georgia,Sept,6.4,47247.0,1355.0
+0,Hawaii,March,2.6,224.0,1.0
+1,Hawaii,April,22.3,385.0,15.0
+2,Hawaii,May,23.5,33.0,1.0
+3,Hawaii,June,13.9,259.0,1.0
+4,Hawaii,July,13.1,1187.0,7.0
+5,Hawaii,Aug,12.5,6359.0,44.0
+6,Hawaii,Sept,15.1,4108.0,66.0
+0,Idaho,March,2.6,526.0,9.0
+1,Idaho,April,11.5,1490.0,54.0
+2,Idaho,May,9.0,839.0,19.0
+3,Idaho,June,5.6,3269.0,10.0
+4,Idaho,July,5.0,14729.0,101.0
+5,Idaho,Aug,4.2,11403.0,171.0
+6,Idaho,Sept,6.1,10293.0,105.0
+0,Illinois,March,4.6,5989.0,107.0
+1,Illinois,April,16.4,46926.0,2254.0
+2,Illinois,May,15.3,67670.0,3065.0
+3,Illinois,June,14.6,24073.0,1710.0
+4,Illinois,July,11.3,36040.0,567.0
+5,Illinois,Aug,11.0,56981.0,555.0
+6,Illinois,Sept,10.2,59253.0,677.0
+0,Indiana,March,3.2,2177.0,61.0
+1,Indiana,April,16.9,15922.0,1053.0
+2,Indiana,May,12.3,17330.0,1020.0
+3,Indiana,June,11.2,11311.0,506.0
+4,Indiana,July,7.8,21060.0,325.0
+5,Indiana,Aug,6.4,28477.0,331.0
+6,Indiana,Sept,6.2,26018.0,336.0
+0,Iowa,March,3.7,498.0,7.0
+1,Iowa,April,10.2,6647.0,155.0
+2,Iowa,May,10.2,12476.0,375.0
+3,Iowa,June,8.0,9531.0,180.0
+4,Iowa,July,6.6,15601.0,155.0
+5,Iowa,Aug,6.0,20499.0,248.0
+6,Iowa,Sept,4.7,23996.0,238.0
+0,Kansas,March,3.1,435.0,10.0
+1,Kansas,April,11.2,3870.0,123.0
+2,Kansas,May,10.0,5573.0,78.0
+3,Kansas,June,7.5,4751.0,65.0
+4,Kansas,July,7.2,13492.0,82.0
+5,Kansas,Aug,6.9,15286.0,93.0
+6,Kansas,Sept,5.9,17550.0,227.0
+0,Kentucky,March,5.8,590.0,18.0
+1,Kentucky,April,15.4,4118.0,222.0
+2,Kentucky,May,10.9,5229.0,201.0
+3,Kentucky,June,4.3,5979.0,147.0
+4,Kentucky,July,5.7,15065.0,165.0
+5,Kentucky,Aug,7.6,19903.0,212.0
+6,Kentucky,Sept,5.6,21946.0,243.0
+0,Louisiana,March,6.1,5237.0,240.0
+1,Louisiana,April,14.5,22807.0,1665.0
+2,Louisiana,May,14.2,11977.0,886.0
+3,Louisiana,June,9.7,18182.0,430.0
+4,Louisiana,July,9.4,58191.0,728.0
+5,Louisiana,Aug,7.6,32500.0,1001.0
+6,Louisiana,Sept,8.1,18564.0,561.0
+0,Maine,March,3.2,303.0,5.0
+1,Maine,April,10.6,792.0,48.0
+2,Maine,May,9.4,1230.0,36.0
+3,Maine,June,6.6,928.0,16.0
+4,Maine,July,9.9,659.0,18.0
+5,Maine,Aug,6.9,614.0,9.0
+6,Maine,Sept,6.1,865.0,9.0
+0,Maryland,March,3.3,1662.0,18.0
+1,Maryland,April,9.9,20163.0,1121.0
+2,Maryland,May,10.0,31631.0,1393.0
+3,Maryland,June,8.0,14696.0,658.0
+4,Maryland,July,7.6,20755.0,303.0
+5,Maryland,Aug,6.0,19835.0,262.0
+6,Maryland,Sept,7.2,16475.0,194.0
+0,Massachusetts,March,2.9,6619.0,89.0
+1,Massachusetts,April,15.1,55585.0,3473.0
+2,Massachusetts,May,16.6,34760.0,3284.0
+3,Massachusetts,June,17.4,11917.0,1208.0
+4,Massachusetts,July,16.1,8730.0,555.0
+5,Massachusetts,Aug,11.3,10921.0,451.0
+6,Massachusetts,Sept,9.6,3583.0,396.0
+0,Michigan,March,4.1,7629.0,264.0
+1,Michigan,April,22.7,33719.0,3524.0
+2,Michigan,May,21.3,16007.0,1703.0
+3,Michigan,June,14.8,13495.0,706.0
+4,Michigan,July,8.7,19902.0,256.0
+5,Michigan,Aug,8.7,22411.0,303.0
+6,Michigan,Sept,8.5,24911.0,328.0
+0,Minnesota,March,3.1,629.0,12.0
+1,Minnesota,April,8.1,4507.0,331.0
+2,Minnesota,May,9.9,19724.0,707.0
+3,Minnesota,June,8.6,11478.0,426.0
+4,Minnesota,July,7.7,18165.0,164.0
+5,Minnesota,Aug,7.4,21410.0,226.0
+6,Minnesota,Sept,6.0,23274.0,223.0
+0,Mississippi,March,5.3,937.0,20.0
+1,Mississippi,April,15.4,5878.0,241.0
+2,Mississippi,May,10.5,8686.0,473.0
+3,Mississippi,June,8.7,11747.0,339.0
+4,Mississippi,July,10.8,31499.0,590.0
+5,Mississippi,Aug,7.9,24203.0,810.0
+6,Mississippi,Sept,7.1,15240.0,496.0
+0,Missouri,March,4.5,1350.0,15.0
+1,Missouri,April,9.7,6213.0,326.0
+2,Missouri,May,10.1,5734.0,443.0
+3,Missouri,June,7.9,8978.0,253.0
+4,Missouri,July,6.9,28799.0,268.0
+5,Missouri,Aug,7.0,35254.0,318.0
+6,Missouri,Sept,4.9,43737.0,534.0
+0,Montana,March,3.5,198.0,5.0
+1,Montana,April,11.3,254.0,11.0
+2,Montana,May,9.0,63.0,1.0
+3,Montana,June,7.1,452.0,5.0
+4,Montana,July,6.4,3010.0,38.0
+5,Montana,Aug,5.6,3463.0,44.0
+6,Montana,Sept,5.3,5739.0,76.0
+0,Nebraska,March,4.2,186.0,4.0
+1,Nebraska,April,8.2,4133.0,66.0
+2,Nebraska,May,5.3,9769.0,108.0
+3,Nebraska,June,6.7,5093.0,101.0
+4,Nebraska,July,4.8,7017.0,59.0
+5,Nebraska,Aug,4.0,8076.0,64.0
+6,Nebraska,Sept,3.5,11277.0,91.0
+0,Nevada,March,6.3,1113.0,26.0
+1,Nevada,April,28.3,3940.0,217.0
+2,Nevada,May,25.3,3575.0,176.0
+3,Nevada,June,15.0,9954.0,88.0
+4,Nevada,July,14.0,29560.0,324.0
+5,Nevada,Aug,13.2,21176.0,474.0
+6,Nevada,Sept,12.6,10766.0,295.0
+0,New Hampshire,March,2.6,367.0,3.0
+1,New Hampshire,April,16.3,1779.0,69.0
+2,New Hampshire,May,15.4,2505.0,173.0
+3,New Hampshire,June,11.8,1131.0,126.0
+4,New Hampshire,July,8.1,801.0,44.0
+5,New Hampshire,Aug,6.5,692.0,17.0
+6,New Hampshire,Sept,6.0,991.0,7.0
+0,New Jersey,March,3.8,18696.0,267.0
+1,New Jersey,April,15.3,99956.0,6961.0
+2,New Jersey,May,15.4,41793.0,4470.0
+3,New Jersey,June,16.6,13076.0,3337.0
+4,New Jersey,July,13.9,10014.0,784.0
+5,New Jersey,Aug,10.9,10205.0,126.0
+6,New Jersey,Sept,6.7,13322.0,177.0
+0,New Mexico,March,5.9,315.0,5.0
+1,New Mexico,April,11.3,3096.0,118.0
+2,New Mexico,May,9.1,4278.0,233.0
+3,New Mexico,June,8.3,4458.0,141.0
+4,New Mexico,July,12.7,8453.0,145.0
+5,New Mexico,Aug,11.3,4752.0,137.0
+6,New Mexico,Sept,9.4,4083.0,98.0
+0,New York,March,4.5,76211.0,1929.0
+1,New York,April,14.5,233485.0,21687.0
+2,New York,May,14.5,65879.0,6083.0
+3,New York,June,15.7,22567.0,2077.0
+4,New York,July,15.9,21581.0,596.0
+5,New York,Aug,12.5,19757.0,169.0
+6,New York,Sept,9.7,23889.0,216.0
+0,North Carolina,March,4.4,1527.0,10.0
+1,North Carolina,April,12.2,8980.0,375.0
+2,North Carolina,May,12.8,18179.0,526.0
+3,North Carolina,June,7.6,36378.0,451.0
+4,North Carolina,July,8.5,57306.0,585.0
+5,North Carolina,Aug,6.5,45619.0,786.0
+6,North Carolina,Sept,7.3,43015.0,832.0
+0,North Dakota,March,2.2,126.0,3.0
+1,North Dakota,April,8.5,941.0,16.0
+2,North Dakota,May,9.1,1513.0,45.0
+3,North Dakota,June,6.1,1005.0,24.0
+4,North Dakota,July,6.6,2888.0,19.0
+5,North Dakota,Aug,5.0,5347.0,40.0
+6,North Dakota,Sept,4.4,10029.0,103.0
+0,Ohio,March,5.5,2199.0,55.0
+1,Ohio,April,16.8,15828.0,920.0
+2,Ohio,May,13.9,17486.0,1180.0
+3,Ohio,June,10.9,16276.0,708.0
+4,Ohio,July,8.9,39370.0,626.0
+5,Ohio,Aug,8.9,31998.0,649.0
+6,Ohio,Sept,8.4,30830.0,666.0
+0,Oklahoma,March,3.1,566.0,23.0
+1,Oklahoma,April,13.7,3052.0,199.0
+2,Oklahoma,May,12.6,2888.0,112.0
+3,Oklahoma,June,6.6,7251.0,53.0
+4,Oklahoma,July,7.1,22699.0,154.0
+5,Oklahoma,Aug,5.7,22277.0,259.0
+6,Oklahoma,Sept,5.3,28466.0,231.0
+0,Oregon,March,3.3,689.0,18.0
+1,Oregon,April,14.2,1820.0,85.0
+2,Oregon,May,14.3,1733.0,50.0
+3,Oregon,June,11.2,4452.0,57.0
+4,Oregon,July,10.4,9815.0,115.0
+5,Oregon,Aug,7.7,8213.0,142.0
+6,Oregon,Sept,8.0,6831.0,93.0
+0,Pennsylvania,March,6.0,4997.0,72.0
+1,Pennsylvania,April,15.1,43227.0,2508.0
+2,Pennsylvania,May,13.4,27994.0,2975.0
+3,Pennsylvania,June,13.0,15008.0,1140.0
+4,Pennsylvania,July,13.7,25561.0,566.0
+5,Pennsylvania,Aug,10.3,22053.0,482.0
+6,Pennsylvania,Sept,8.1,25295.0,473.0
+0,Rhode Island,March,4.6,488.0,8.0
+1,Rhode Island,April,17.0,8133.0,258.0
+2,Rhode Island,May,16.4,6307.0,452.0
+3,Rhode Island,June,12.4,1885.0,232.0
+4,Rhode Island,July,11.2,2209.0,57.0
+5,Rhode Island,Aug,12.8,2927.0,41.0
+6,Rhode Island,Sept,10.5,2799.0,66.0
+0,South Carolina,March,2.6,1083.0,22.0
+1,South Carolina,April,12.1,5012.0,222.0
+2,South Carolina,May,12.4,5766.0,250.0
+3,South Carolina,June,8.7,24538.0,245.0
+4,South Carolina,July,8.6,52617.0,973.0
+5,South Carolina,Aug,6.3,29976.0,1008.0
+6,South Carolina,Sept,5.1,28950.0,658.0
+0,South Dakota,March,3.3,107.0,1.0
+1,South Dakota,April,10.2,2343.0,16.0
+2,South Dakota,May,9.4,2543.0,45.0
+3,South Dakota,June,7.2,1771.0,29.0
+4,South Dakota,July,6.3,2000.0,39.0
+5,South Dakota,Aug,4.8,4745.0,37.0
+6,South Dakota,Sept,4.1,8880.0,56.0
+0,Tennessee,March,3.5,2049.0,13.0
+1,Tennessee,April,14.7,8457.0,187.0
+2,Tennessee,May,11.0,12326.0,160.0
+3,Tennessee,June,9.7,19983.0,237.0
+4,Tennessee,July,9.5,60329.0,450.0
+5,Tennessee,Aug,8.5,48889.0,680.0
+6,Tennessee,Sept,6.3,41324.0,702.0
+0,Texas,March,4.7,3577.0,57.0
+1,Texas,April,12.8,25484.0,771.0
+2,Texas,May,13.0,35902.0,855.0
+3,Texas,June,8.6,101729.0,799.0
+4,Texas,July,8.0,276387.0,4791.0
+5,Texas,Aug,6.8,197227.0,5584.0
+6,Texas,Sept,8.3,143710.0,3245.0
+0,Utah,March,3.6,886.0,5.0
+1,Utah,April,9.7,3785.0,41.0
+2,Utah,May,8.6,5157.0,67.0
+3,Utah,June,5.1,12535.0,59.0
+4,Utah,July,4.5,17894.0,136.0
+5,Utah,Aug,4.1,11908.0,101.0
+6,Utah,Sept,5.0,20887.0,51.0
+0,Vermont,March,3.2,293.0,13.0
+1,Vermont,April,15.6,573.0,35.0
+2,Vermont,May,12.8,115.0,7.0
+3,Vermont,June,9.4,227.0,1.0
+4,Vermont,July,8.3,206.0,1.0
+5,Vermont,Aug,4.8,210.0,1.0
+6,Vermont,Sept,4.2,128.0,0.0
+0,Virginia,March,3.3,1249.0,27.0
+1,Virginia,April,10.6,14597.0,525.0
+2,Virginia,May,9.0,28761.0,823.0
+3,Virginia,June,8.4,18180.0,388.0
+4,Virginia,July,8.0,27101.0,411.0
+5,Virginia,Aug,6.1,30706.0,406.0
+6,Virginia,Sept,6.2,27677.0,628.0
+0,Washington,March,5.1,5283.0,225.0
+1,Washington,April,15.4,9521.0,596.0
+2,Washington,May,15.1,8000.0,304.0
+3,Washington,June,9.8,11727.0,207.0
+4,Washington,July,10.3,24184.0,320.0
+5,Washington,Aug,8.5,18993.0,349.0
+6,Washington,Sept,7.8,13842.0,220.0
+0,West Virginia,March,6.1,162.0,1.0
+1,West Virginia,April,15.2,964.0,43.0
+2,West Virginia,May,12.9,884.0,31.0
+3,West Virginia,June,10.4,894.0,18.0
+4,West Virginia,July,9.9,3738.0,23.0
+5,West Virginia,Aug,8.9,3608.0,98.0
+6,West Virginia,Sept,8.6,5598.0,136.0
+0,Wisconsin,March,3.4,1350.0,25.0
+1,Wisconsin,April,14.1,5622.0,291.0
+2,Wisconsin,May,12.1,11711.0,278.0
+3,Wisconsin,June,8.5,13039.0,199.0
+4,Wisconsin,July,7.0,25297.0,150.0
+5,Wisconsin,Aug,6.2,23713.0,189.0
+6,Wisconsin,Sept,5.4,48439.0,206.0
+0,Wyoming,March,3.7,121.0,0.0
+1,Wyoming,April,9.2,438.0,7.0
+2,Wyoming,May,8.8,344.0,9.0
+3,Wyoming,June,7.6,584.0,4.0
+4,Wyoming,July,7.1,1239.0,6.0
+5,Wyoming,Aug,6.6,1116.0,11.0
+6,Wyoming,Sept,6.1,2106.0,13.0
+0,Puerto Rico,March,5.7,239.0,8.0
+1,Puerto Rico,April,13.63,1298.0,84.0
+2,Puerto Rico,May,11.45,2239.0,44.0
+3,Puerto Rico,June,9.4,3689.0,17.0
+4,Puerto Rico,July,10.08,9316.0,66.0
+5,Puerto Rico,Aug,8.220000000000002,16418.0,215.0
+6,Puerto Rico,Sept,7.779999999999999,15556.0,227.0
